@@ -1,6 +1,7 @@
 // importing libraries
 // importing components
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom';
 // importing styles or resources
 // importing actions or operations or function
 
@@ -18,33 +19,33 @@ export default function Header() {
 
                 {/* Logo Section */}
                 <div className="text-white px-4 rounded flex justify-center items-center">
-                    <a href="/">
+                    <Link to="/">
                         <div>MTL Team</div>
-                    </a>
+                    </Link>
                 </div>
 
                 {/* Menu Section */}
                 <div className={toggleMenu ? "md:flex  md:pt-0 pt-10 w-full md:w-auto" : "hidden md:flex"} id="menu">
                     <ul>
                         <li className="dropdown md:inline-block cursor-pointer hover:text-gray-500 border-b md:border-none py-2 px-3 relative">
-                            <a href="#"
+                            <Link to="/apps"
                                 className="text-white px-4 rounded flex justify-center items-center">
                                 <div>Apps</div>
-                            </a>
+                            </Link>
                         </li>
 
                         <li className="md:inline-block cursor-pointer hover:text-gray-500 border-b md:border-none py-2 px-3">
-                            <a href="#"
+                            <Link to="/about"
                                 className="text-white px-4 rounded flex justify-center items-center">
                                 <div>About us</div>
-                            </a>
+                            </Link>
                         </li>
 
                         <li className="md:inline-block cursor-pointer hover:text-gray-500 border-b md:border-none py-2 px-3">
-                            <a href="#"
+                            <Link to="contact"
                                 className="text-white px-4 rounded flex justify-center items-center">
                                 <div>Contact us</div>
-                            </a>
+                            </Link>
                         </li>
                     </ul>
                 </div>
