@@ -1,9 +1,14 @@
-import MainPage from "./pages/MainPage";
+import Main from "./sections/main/Main";
+import Header from "./sections/head/Header";
+import Footer from "./sections/foot/Footer";
+
 
 function App() {
   return (
     <div>
-      <MainPage/>
+      <Header />
+      <Main />
+      <Footer />
     </div>
   );
 }
