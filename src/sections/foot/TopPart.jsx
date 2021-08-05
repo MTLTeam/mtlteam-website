@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+import { constants } from '../../config/constants'
 
 export default function TopPart() {
     return (
@@ -39,28 +41,28 @@ export default function TopPart() {
                 <h5 className="my-4 text-white text-xl font-bold text-center">Company</h5>
                 <ul className="mx-2 py-4 shadow-lg rounded bg-indigo-700">
                     <li className="mb-2">
-                        <a href="#"
+                        <Link to="/"
                             className="border-b border-solid border-transparent ">
                             <div className="text-white text-center hover:text-red-300" >
                                 Home
                             </div>
-                        </a>
+                        </Link>
                     </li>
                     <li className="mb-2">
-                        <a href="#"
+                        <Link to="/publish"
                             className="border-b border-solid border-transparent ">
                             <div className="text-white text-center hover:text-red-300" >
                                 App Publishing
                             </div>
-                        </a>
+                        </Link>
                     </li>
                     <li className="mb-2">
-                        <a href="#"
+                        <Link to="/privacy-policy"
                             className="border-b border-solid border-transparent ">
                             <div className="text-white text-center hover:text-red-300" >
                                 Privacy Policy
                             </div>
-                        </a>
+                        </Link>
                     </li>
                 </ul>
             </div>
@@ -69,7 +71,7 @@ export default function TopPart() {
             <div className="sm:col-span-1">
                 <h5 className="my-4 text-white text-xl font-bold text-center">Social</h5>
                 <div className="flex justify-center mx-2 py-4 shadow-lg rounded bg-indigo-700">
-                    <a href="">
+                    <a href={constants.socials.facebook}>
                         <svg xmlns="http://www.w3.org/2000/svg"
                             // xmlns:xlink="http://www.w3.org/1999/xlink"
                             version="1.0"
