@@ -28,7 +28,7 @@ export default function Header() {
                 <div className={toggleMenu ? "md:flex  md:pt-0 pt-10 w-full md:w-auto" : "hidden md:flex"} id="menu">
                     <ul>
                         <li className="dropdown md:inline-block cursor-pointer hover:text-gray-500 border-b md:border-none py-2 px-3 relative">
-                            <Link to="/apps"
+                            <Link to="/apps?list=all"
                                 className="text-white px-4 rounded flex justify-center items-center">
                                 <div>Apps</div>
                             </Link>
@@ -51,9 +51,9 @@ export default function Header() {
                 </div>
 
                 <div className="cursor-pointer md:hidden">
-                    <input class="menu-btn hidden" type="checkbox" id="menu-btn" />
-                    <label class="menu-icon block cursor-pointer md:hidden px-2 py-4 relative select-none" for="menu-btn">
-                        <span onClick={handleToggle} class="navicon bg-white-darkest flex items-center relative"></span>
+                    <input className="menu-btn hidden" type="checkbox" id="menu-btn" />
+                    <label className="menu-icon block cursor-pointer md:hidden px-2 py-4 relative select-none" htmlFor="menu-btn">
+                        <span onClick={handleToggle} className="navicon bg-white-darkest flex items-center relative"></span>
                     </label>
                 </div>
 

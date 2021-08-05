@@ -7,7 +7,7 @@ import { constants } from '../../config/constants'
 
 export default function BotPart() {
     return (
-        <div class="grid grid-cols-5">
+        <div className="grid grid-cols-5">
 
             <div className="sm:col-span-1">
                 {/* Empty */}

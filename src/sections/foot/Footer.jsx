@@ -9,7 +9,7 @@ import TopPart from './TopPart'
 export default class Footer extends Component {
     render() {
         return (
-            <footer class="m-1 bg-indigo-600 rounded py-8 sm:py-8">
+            <footer className="m-1 bg-indigo-600 rounded py-8 sm:py-8">
                 <TopPart/>
                 <BotPart />
             </footer>

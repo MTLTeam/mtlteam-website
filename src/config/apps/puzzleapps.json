@@ -1,0 +1,37 @@
+{
+    "categoryName": "Puzzle Games",
+    "apps": [
+        {
+            "appId": "",
+            "featureImage": "",
+            "appIcon": "",
+            "appName": "",
+            "appPunchLine": "",
+            "links": [
+                {
+                    "appStore": ""
+                }
+            ],
+            "appScreenShots": [
+                {
+                    "s1": "",
+                    "s2": "",
+                    "s3": "",
+                    "s4": "",
+                    "s5": ""
+                }
+            ],
+            "appShortDescription": "",
+            "appLongDescription": "",
+            "appFeatures": [
+                {
+                    "f1": "",
+                    "f2": "",
+                    "f3": "",
+                    "f4": "",
+                    "f5": ""
+                }
+            ]
+        }
+    ]
+}
