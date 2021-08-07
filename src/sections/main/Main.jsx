@@ -11,6 +11,7 @@ import PP from './fragments/pp/PP'
 // importing styles or resources
 // importing actions or operations or function
 import useQuery from '../../hooks/useQuery'
+import AppPreview from './fragments/apps/AppPreview'
 
 export default function Main() {
     let query = useQuery();
@@ -25,6 +26,7 @@ export default function Main() {
                     <AppList
                         list={query.get("list")} />
                 </Route>
+                <Route path='/preview/:list/:app' component={AppPreview} />
                 {/* <Route path='/apps?list=quizs' exact component={AppList} />
                     <Route path='/apps?list=puzzles' exact component={AppList} /> */}
                 <Route path='/about' exact component={About} />
