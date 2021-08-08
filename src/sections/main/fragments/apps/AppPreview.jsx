@@ -31,7 +31,7 @@ export default function AppPreview(props) {
 
                     {/* App icon here... */}
                     <img
-                        className="h-28 w-28 sm:h-48 sm:w-48 m-4 sm:m-6 sm:mr-12 rounded-2xl"
+                        className="h-24 w-24 sm:h-48 sm:w-48 m-4 sm:m-6 sm:mr-12 rounded-2xl"
                         src={getPath(application.appIcon)} alt="appIcon" />
 
                     {/* Title, Punch line, Download button here... */}
@@ -44,7 +44,7 @@ export default function AppPreview(props) {
                         </div>
 
                         <a href={application.links.appStore}>
-                            <img className="w-36 sm:w-40 m-4"
+                            <img className="w-32 sm:w-40 m-4"
                                 src="../../img/g-play-button.png" alt="play store" />
                         </a>
                     </div>
