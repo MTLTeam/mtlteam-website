@@ -16,12 +16,22 @@
             ],
             "appScreenShots": [
                 {
-                    "s1": "./puzzleapps/appOne/ss/1.jpg",
-                    "s2": "./puzzleapps/appOne/ss/2.jpg",
-                    "s3": "./puzzleapps/appOne/ss/3.jpg",
-                    "s4": "./puzzleapps/appOne/ss/4.jpg",
-                    "s5": "./puzzleapps/appOne/ss/5.jpg",
-                    "s6": "./puzzleapps/appOne/ss/6.jpg"
+                    "image": "./puzzleapps/appOne/ss/1.jpg"
+                },
+                {
+                    "image": "./puzzleapps/appOne/ss/2.jpg"
+                },
+                {
+                    "image": "./puzzleapps/appOne/ss/3.jpg"
+                },
+                {
+                    "image": "./puzzleapps/appOne/ss/4.jpg"
+                },
+                {
+                    "image": "./puzzleapps/appOne/ss/5.jpg"
+                },
+                {
+                    "image": "./puzzleapps/appOne/ss/6.jpg"
                 }
             ],
             "appShortDescription": "Relax and keep your mind sharp with a game of Sudoku, the world’s best Sudoku app.",

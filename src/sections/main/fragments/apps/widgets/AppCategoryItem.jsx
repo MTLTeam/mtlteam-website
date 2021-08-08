@@ -26,6 +26,7 @@ export default function AppItem({ list }) {
                 {/* Apps display here... */}
                 {
                     list.apps.map((item, index) => {
+                        console.log(item.appIcon);
                         return (
                             <div key={index}
                                 className="m-4 bg-white w-48 rounded shadow cursor-pointer"
@@ -46,7 +47,7 @@ export default function AppItem({ list }) {
                                     <div className="flex justify-end">
                                         <img
                                             className="w-24 m-4"
-                                            src="./img/g-play.png" alt="appIcon" />
+                                            src="./img/g-play.png" alt="play store" />
                                     </div>
                                 </div>
 

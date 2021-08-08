@@ -16,14 +16,28 @@
             ],
             "appScreenShots": [
                 {
-                    "s1": "./quizapps/appOne/ss/1.png",
-                    "s2": "./quizapps/appOne/ss/2.png",
-                    "s3": "./quizapps/appOne/ss/3.png",
-                    "s4": "./quizapps/appOne/ss/4.png",
-                    "s5": "./quizapps/appOne/ss/5.png",
-                    "s6": "./quizapps/appOne/ss/6.png",
-                    "s7": "./quizapps/appOne/ss/7.png",
-                    "s8": "./quizapps/appOne/ss/8.png"
+                    "image": "./quizapps/appOne/ss/1.png"
+                },
+                {
+                    "image": "./quizapps/appOne/ss/2.png"
+                },
+                {
+                    "image": "./quizapps/appOne/ss/3.png"
+                },
+                {
+                    "image": "./quizapps/appOne/ss/4.png"
+                },
+                {
+                    "image": "./quizapps/appOne/ss/5.png"
+                },
+                {
+                    "image": "./quizapps/appOne/ss/6.png"
+                },
+                {
+                    "image": "./quizapps/appOne/ss/7.png"
+                },
+                {
+                    "image": "./quizapps/appOne/ss/8.png"
                 }
             ],
             "appShortDescription": "Play Quiz game to enhance your General knowledge also test your General knowledge.",

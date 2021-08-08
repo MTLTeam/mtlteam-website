@@ -56,3 +56,28 @@
   .menu-btn:checked ~ .menu-icon .navicon::after {
     top: 0;
   }
+
+
+  /* USED: screen shot scrolling */
+  .hide-scroll-bar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    
+    /* -webkit-overflow-scrolling: touch;
+    overflow-x: scroll; */
+  }
+  .hide-scroll-bar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .screenshot-item {
+    margin: 15px;
+}
+
+.screenshot-item img {
+    max-width: 250px;
+    width: 100%;
+    display: block;
+    margin: auto;
+    box-shadow: var(--shadow-black-100);
+}
