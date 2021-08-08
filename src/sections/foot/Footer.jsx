@@ -10,7 +10,7 @@ export default class Footer extends Component {
     render() {
         return (
             <footer className="m-1 bg-indigo-600 rounded py-8 sm:py-8">
-                <TopPart/>
+                <TopPart />
                 <BotPart />
             </footer>
         )
