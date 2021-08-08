@@ -33,12 +33,20 @@ export default function TopPart() {
                             </div>
                         </Link>
                     </li>
+                    <li className="mb-2">
+                        <Link to="/apps?list=all"
+                            className="border-b border-solid border-transparent ">
+                            <div className="text-white text-center hover:text-red-300" >
+                                All Games
+                            </div>
+                        </Link>
+                    </li>
                 </ul>
             </div>
 
-            {/* Company */}
+            {/* Quick links */}
             <div className="sm:col-span-1">
-                <h5 className="my-4 text-white text-xl font-bold text-center">Company</h5>
+                <h5 className="my-4 text-white text-xl font-bold text-center">Quick Links</h5>
                 <ul className="mx-2 py-4 shadow-lg rounded bg-indigo-700">
                     <li className="mb-2">
                         <Link to="/"
@@ -48,11 +56,19 @@ export default function TopPart() {
                             </div>
                         </Link>
                     </li>
-                    <li className="mb-2">
+                    {/* <li className="mb-2">
                         <Link to="/publish"
                             className="border-b border-solid border-transparent ">
                             <div className="text-white text-center hover:text-red-300" >
                                 App Publishing
+                            </div>
+                        </Link>
+                    </li> */}
+                    <li className="mb-2">
+                        <Link to="/about"
+                            className="border-b border-solid border-transparent ">
+                            <div className="text-white text-center hover:text-red-300" >
+                                About us
                             </div>
                         </Link>
                     </li>

@@ -33,7 +33,7 @@ export default function AppItem({ list }) {
                                 onClick={() => previewApp(list.categoryId, item.appId)}>
 
                                 {/* App image here... */}
-                                <div className="w-full flex justify-center bg-red-100 rounded">
+                                <div className="w-full flex justify-center bg-gray-100 rounded">
                                     <img
                                         className="h-32 w-32 m-4 rounded-md"
                                         src={item.appIcon} alt="appIcon" />
@@ -41,7 +41,7 @@ export default function AppItem({ list }) {
 
                                 {/* App name here... */}
                                 <div className="">
-                                    <div className="px-4 font-medium">
+                                    <div className="pt-1 px-4 font-medium">
                                         {item.appName}
                                     </div>
                                     <div className="flex justify-end">
