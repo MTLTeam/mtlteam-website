@@ -45,9 +45,11 @@ export default function AppItem({ list }) {
                                         {item.appName}
                                     </div>
                                     <div className="flex justify-end">
-                                        <img
-                                            className="w-24 m-4"
-                                            src="./img/g-play.png" alt="play store" />
+                                        <a href={item.links.appStore}>
+                                            <img
+                                                className="w-24 m-4"
+                                                src="./img/g-play.png" alt="play store" />
+                                        </a>
                                     </div>
                                 </div>
 

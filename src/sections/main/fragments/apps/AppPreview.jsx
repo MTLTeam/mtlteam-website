@@ -43,8 +43,10 @@ export default function AppPreview(props) {
                             {application.appPunchLine}
                         </div>
 
-                        <img className="w-28 sm:w-40 m-4"
-                            src="../../img/g-play-button.png" alt="play store" />
+                        <a href={application.links.appStore}>
+                            <img className="w-36 sm:w-40 m-4"
+                                src="../../img/g-play-button.png" alt="play store" />
+                        </a>
                     </div>
                 </div>
 

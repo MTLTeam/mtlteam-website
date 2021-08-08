@@ -9,11 +9,9 @@
             "appIcon": "./puzzleapps/appOne/appIcon.webp",
             "appName": "Sudoku offline game free no ads beginner to expert",
             "appPunchLine": "Challenge your brain anywhere, anytime!",
-            "links": [
-                {
-                    "appStore": "https://play.google.com/store/apps/details?id=com.mtlteam.sudoku"
-                }
-            ],
+            "links": {
+                "appStore": "https://play.google.com/store/apps/details?id=com.mtlteam.sudoku"
+            },
             "appScreenShots": [
                 {
                     "image": "./puzzleapps/appOne/ss/1.jpg"
